@@ -1,0 +1,156 @@
+/*----设置全局样式----*/
+@media screen {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background: #FFFFF3;
+        font-family: Microsoft YaHei;
+        font-size: 16px;
+        height: 100%;
+        width: 100%;
+    }
+    .content {
+        max-width: 640px;
+        height: calc(100% - 3px);
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 1px solid #cccccc;
+        z-index: 0;
+        background-color:  #F5F5DC;
+    }
+    .top_content {
+        width: 100%;
+        height: 288px;
+        border-bottom: 1px solid #cccccc;
+    }
+    .game_title{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .game_desc{
+        margin: 20px 10px 10px 10px;
+
+    }
+    .bottom_content{
+        width: 120px;
+        height: 38px;
+        border-radius: 7px;
+        background-color: deepskyblue;
+        line-height: 38px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 30px auto auto auto;
+        text-align: center;
+    }
+    .bottom_content a:link {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .center_content a:visited {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .center_content a:active {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .center_content a:hover {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .login{
+        width: 300px;
+        height: 200px;
+        background-color: #ffffff;
+        border-radius: 7px;
+        border: #cccccc 1px solid;
+        z-index: 999;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: none;
+    }
+    .account_name{
+        background-color: #ffffff;
+        width: 240px;
+        height: 35px;
+        margin: 30px auto auto 30px;
+        border: #cccccc solid 1px;
+        display: inline-block;
+    }
+    .account_psw{
+        background-color: #ffffff;
+        width: 240px;
+        height: 35px;
+        margin: 8px auto auto 30px;
+        border: #cccccc solid 1px;
+        display: inline-block;
+    }
+    .account_title{
+        display: inline-block;
+        margin: 5px 0px auto 10px;
+        width: 35px;
+        padding-right: 5px;
+        border-right: #cccccc 1px solid;
+    }
+    .account_input{
+        height: 33px;
+        width: 180px;
+        margin-left: 5px;
+        border: none;
+        outline: none;
+        color: #aaaaaa;
+        display: inline-block;
+    }
+    .btn_container{
+        width: 100%;
+        margin-top: 20px;
+        height: 38px;
+        display: inline-block;
+    }
+    .btn_cls{
+        width: 80px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        background-color:deepskyblue;
+        color: #ffffff;
+        border-radius: 7px;
+        position: absolute;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .btn_login_txt{
+        cursor: pointer;
+    }
+    #btn_login{
+        margin-left: 55px;
+    }
+    #btn_register{
+        margin-left: 165px;
+    }
+    .login_tip{
+        width: 100%;
+        text-align: center;
+        color: red;
+        line-height: 15px;
+        height: 15px;
+        margin-top: 5px;
+        font-size: 13px;
+        visibility: hidden;
+    }
+}

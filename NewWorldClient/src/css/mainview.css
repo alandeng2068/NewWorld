@@ -1,0 +1,162 @@
+/*----设置全局样式----*/
+@media screen {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #FFFFF3;
+        font-family: Microsoft YaHei;
+        font-size: 16px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .content {
+        max-width: 640px;
+        height: calc(100% - 3px);
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 1px solid #cccccc;
+        z-index: 0;
+        background-color: #F5F5DC;
+    }
+    .content a:link {
+        color: #00CD00;
+    }
+
+    .content a:visited {
+        color: #00CD00;
+    }
+
+    .content a:active {
+        color: #00CD00;
+    }
+
+    .content a:hover {
+        color: #00CD00;
+    }
+    .story_container{
+        border-bottom: #cccccc 1px solid;
+    }
+    .map_name{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 5px auto 5px 10px;
+    }
+    .story{
+        margin: 5px 10px 20px 10px;
+        text-indent: 2em;
+        font-size: 15px;
+    }
+    .player_info{
+        margin: 10px auto 10px 10px;
+    }
+    #player_name{
+        font-size: 15px;
+    }
+    .grade{
+        color: green;
+    }
+    #changeNameBtn{
+        display: none;
+    }
+    .change_name_container{
+        width: 300px;
+        height: 150px;
+        background-color: #ffffff;
+        border-radius: 7px;
+        border: #cccccc 1px solid;
+        z-index: 999;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: none;
+    }
+    .change_name{
+        background-color: #ffffff;
+        width: 240px;
+        height: 35px;
+        margin: 30px auto auto 30px;
+        border: #cccccc solid 1px;
+        display: inline-block;
+    }
+    .name_title{
+        display: inline-block;
+        margin: 5px 0px auto 10px;
+        width: 70px;
+        border-right: #cccccc 1px solid;
+    }
+    .name_input{
+        height: 33px;
+        width: 145px;
+        margin-left: 10px;
+        border: none;
+        outline: none;
+        color: #aaaaaa;
+        display: inline-block;
+    }
+    .btn_change{
+        width: 80px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        background-color:deepskyblue;
+        color: #ffffff;
+        border-radius: 7px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 110px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .btn_change_txt{
+        cursor: pointer;
+    }
+    .name_tip{
+        width: 100%;
+        text-align: center;
+        color: red;
+        line-height: 15px;
+        height: 15px;
+        margin-top: 10px;
+        font-size: 13px;
+        visibility: hidden;
+    }
+    .task_list_container{
+        margin: 10px auto auto 10px;
+    }
+    .task_list_title{
+        color: #00CD00;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .task_list{
+        margin-left: 30px;
+    }
+    .task_list ul{
+        margin: 5px auto 5px auto;
+    }
+    .task_list a:link {
+        color: #00CD00;
+    }
+
+    .task_list a:visited {
+        color: #00CD00;
+    }
+
+    .task_list a:active {
+        color: #00CD00;
+    }
+
+    .task_list a:hover {
+        color: #00CD00;
+    }
+}

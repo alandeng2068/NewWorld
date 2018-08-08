@@ -1,0 +1,42 @@
+/*----设置全局样式----*/
+@media screen {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #FFFFF3;
+        font-family: Microsoft YaHei;
+        font-size: 16px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .content {
+        max-width: 640px;
+        height: calc(100% - 3px);
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 1px solid #cccccc;
+        z-index: 0;
+        background-color: #F5F5DC;
+    }
+    .guide{
+        width: calc(100% - 30px);
+        height: 160px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        margin: auto;
+    }
+    .guide_oper{
+        float: right;
+        margin-right: 10px;
+    }
+}
